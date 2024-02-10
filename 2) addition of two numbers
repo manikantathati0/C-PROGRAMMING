@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+	int n1,n2,sum;
+	printf("enter the first number:");
+	scanf("%d",&n1);
+	printf("enter the second number:");
+	scanf("%d",&n2);
+	sum=n1+n2;
+	printf("Addition of two numbers = %d",sum);
+	return 0;
+}
+output:
+enter the first number:3
+enter the second number:2
+Addition of two numbers = 5
