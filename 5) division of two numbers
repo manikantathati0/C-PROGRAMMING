@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+	int n1,n2,quotient;
+	printf("enter the first number:");
+	scanf("%d",&n1);
+	printf("enter the second number:");
+	scanf("%d",&n2);
+	if(n2!=0){
+		quotient=n1/n2;
+		printf("Division of two numbers = %d");
+	}
+	else
+	printf("Error! division not possible");
+	return 0;
+}
