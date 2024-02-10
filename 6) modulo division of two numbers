@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+	int n1,n2,remainder;
+	printf("enter the first number:");
+	scanf("%d",&n1);
+	printf("enter the second number:");
+	scanf("%d",&n2);
+	if(n2!=0){
+		remainder=n1%n2;
+		printf("Modulo division of two numbers = %d",remainder);
+	}
+	else
+	printf("Error! division not possible");
+	return 0;
+}
+output:
+enter the first number:4
+enter the second number:6
+Modulo division of two numbers = 4
