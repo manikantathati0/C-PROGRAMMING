@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int n,cube;
+	printf("enter the number:");
+	scanf("%d",&n);
+	cube=n*n*n;
+	printf("cube of a number = %d",cube);
+	return 0;
+}
+output:
+enter the number:3
+cube of a number = 27
